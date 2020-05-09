@@ -1,0 +1,12 @@
+$(".home").hover(function(){
+  $(".sub-home").fadeIn();
+},
+function(){
+  $(".sub-home").fadeOut();
+});
+$(".page-menu").hover(function(){
+  $(".sub-page").fadeIn();
+},
+function(){
+  $(".sub-page").fadeOut();
+});

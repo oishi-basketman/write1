@@ -1,0 +1,24 @@
+.home{
+  position: relative;
+}
+
+.sub-home{
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  display: none;
+}
+.page-menu{
+  position: relative;
+}
+.sub-page{
+  position: absolute;
+  padding: 10px;
+  top: 500px;
+  width: 100%;
+  display: none;
+  box-shadow: #333;
+}
+.subpage a{
+  display: block;
+}

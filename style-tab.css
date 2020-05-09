@@ -1,0 +1,86 @@
+@media screen and (max-width:1024px){
+  body{
+    width: 100%;
+  }
+  .container{
+    width: 700px;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  header{
+    display: block;
+    position: relative;
+    margin-bottom: 130px;
+  }
+  .title{
+    margin-bottom: 2rem;
+  }
+  nav,.search{
+    display: inline-block;
+  }
+  .search{
+    position: absolute;
+    right: 0;
+  }
+  nav ul{
+    padding-left: 0;
+  }
+
+  section{
+    flex-direction: column;
+  }
+  .pagebtn{
+    text-align: start;
+  }
+
+  .about{
+    flex-direction: column;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .profile,.right,.latestarticles,.categoly{
+    margin-bottom: 80px;
+    width: 100%;
+  }
+  .about .title{
+    padding: 0;
+  }
+
+  .latestarticles .ladate{
+    padding-top: 5px;
+    padding-bottom: 8px;
+  }
+  .categoly{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .categoly input{
+    width: 300px;
+  }
+  .categoly .item{
+    margin-bottom: 8px;
+  }
+
+  footer{
+    padding:0;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    height: 100px;
+    align-items: center;
+  }
+
+  .Sns{
+    padding-bottom: 1.5rem;
+  }
+  
+  .address{
+    top:80%;
+    left: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+  }
+}
